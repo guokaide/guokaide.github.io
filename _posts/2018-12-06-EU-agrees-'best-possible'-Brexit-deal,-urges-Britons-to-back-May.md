@@ -223,4 +223,3 @@ The EU leaders took barely half an hour to rubber-stamp the 585-page withdrawal 
 
 
 
-~End~
