@@ -3,7 +3,6 @@ layout: post
 title:  Reading Notes 001 - EU agrees 'best possible' Brexit deal, urges Britons to back May
 categories: English
 keywords: English, Basic-skills 
-author: guokaide
 ---
 
 `#` World
