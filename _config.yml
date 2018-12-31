@@ -87,19 +87,19 @@ repository: guokaide/guokaide.github.io
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: gitment
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
-# gitment:
-#    owner: 
-#    repo: 
-#    oauth:
-#        client_id: 
-#        client_secret: 
+gitment:
+    owner: guokaide
+    repo: blog-comments
+    oauth:
+        client_id: c5afb1e2fe0b9bdb2d27 
+        client_secret: 6389bdbdba8bb344956bed6138378c258628dc36
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: guokaide
