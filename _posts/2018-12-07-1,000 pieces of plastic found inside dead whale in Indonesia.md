@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading Notes 002 - 1,000 pieces of plastic found inside dead whale in Indonesia"
+title:  "1,000 pieces of plastic found inside dead whale in Indonesia"
 categories: English
 description: English
 keywords: English, Basic-skills 
