@@ -85,7 +85,7 @@ Tokyo argues that the IWC has failed to live up to its initial dual mandate 
 
   follow through on your plans 
 
-* **global body = IWC **
+* **global body = IWC**
 
   **为了写作的多样性，使用不同的写法**
 
