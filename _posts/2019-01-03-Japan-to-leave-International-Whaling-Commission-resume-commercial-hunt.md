@@ -1,12 +1,9 @@
 ---
 layout: post
-title：  Reading Notes 023 - Japan to leave International Whaling Commission, resume commercial hunt
+title:  Reading Notes 023 - Japan to leave International Whaling Commission, resume commercial hunt
 categories: English
 keywords: English, Basic-skills
 ---
-
-
-
 
 `#` Environment
 
