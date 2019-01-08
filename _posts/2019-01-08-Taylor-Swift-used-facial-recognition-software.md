@@ -166,3 +166,15 @@ A recent UN report criticised the use of facial recognition by police in south W
 * demonstration n.示威 * 
 * disproportionate adj. 不适当的 * 
 
+
+
+## have (been) done 和 having (been) done 的区别
+
+have done 和 have been done 都表示的是现在完成时，having done 和 having been done 都是动词 ing 形式的完成形式，在句子中作状语，起到补充说明的作用。
+
+要注意的是，having 所接的动词表伴随，且发生的时间在主句中谓语动词发生的时间之前。比如：Having driven all day, we were so tired. 这个例子中，“we were so tired”是句子主干，“Having driven all day”是伴随动作，且 drive 的动作发生在 be tired 之前。
+而文中的句子为：“Mohammed Jaffar was sentenced to six months in jail and five years’ probation, having been convicted for burglary after he appeared at Swift’s New York home five times in two months.” “他将入狱 6 个月，缓刑期 5 年”发生在后，是句子主干部分；“因在两个月内五次出现在斯威夫特在纽约的家中而被判入室盗窃罪”发生在前，作为一个伴随状语。
+
+以上读懂之后，我们顺便看看 having done 和 having been done 的区别，前者 having done 表示的是主动，后者 having been done 表示的是被动。文中是“被判有入室盗窃罪”，所以用被动。再举个例子对比一下：
+- Having driven all day, we were so tired. 因为是“我们主动开了一天的车”，所以要用主动；
+- Having been criticized today, he was so sad. 因为是"他被批评”，所以要用被动。
