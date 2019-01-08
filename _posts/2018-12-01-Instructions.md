@@ -17,9 +17,13 @@ mathjax: true
 
 ## Test
 
-Mathjax测试：
+1、Mathjax
 
 $$f(x)=x^2 + a$$
+
+2、插入图片
+
+<div align="center">  <img src="https://github.com/guokaide/algorithm/blob/master/pictures/algo.jpg"/>  </div><br>
 
 
 
