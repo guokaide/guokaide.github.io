@@ -25,7 +25,15 @@ $$f(x)=x^2 + a$$
 
 <div align="center">  <img src="/images/posts/wx/algo.jpg"/>  </div><br>
 
+3、代码测试
 
+```Java
+public class Test {
+  public static void main(String[] args) {
+    System.out.println("Hello, Blog!");
+  }
+}
+```
 
 
 
