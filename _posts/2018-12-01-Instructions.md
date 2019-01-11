@@ -29,8 +29,13 @@ $$f(x)=x^2 + a$$
 
 ```Java
 public class Test {
-    public static void main(String[] args) {
+    public void test() {
         System.out.println("Hello, Blog!");
+    }
+    
+    public static void main(String[] args) {
+        Test t = new Test();
+        t.test();
     }
 }
 ```
