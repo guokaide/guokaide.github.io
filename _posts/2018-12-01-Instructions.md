@@ -27,7 +27,7 @@ $$f(x)=x^2 + a$$
 
 3、代码测试
 
-```Java
+```java
 public class Test {
     public void test() {
         System.out.println("Hello, Blog!");
