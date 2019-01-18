@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Reading Notes 027 - No progress towards ending U.S. shutdown in Trump meeting with lawmakers
-categories: English
+categories: [English, World]
 keywords: English, Skill
 ---
 
 
-
-`#` 世界
 
 `Source` 路透社
 
