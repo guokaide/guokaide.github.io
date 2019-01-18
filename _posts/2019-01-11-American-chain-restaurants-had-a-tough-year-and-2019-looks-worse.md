@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reading Notes 028 - American chain restaurants had a tough year and 2019 looks worse
-categories: English
+categories: [English, Skill]
 keywords: English, Skill
 ---
 
