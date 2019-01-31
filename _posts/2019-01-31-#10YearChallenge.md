@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading Notes 029 - #10YearChallenge: harmless trend or boon to facial recognition technology
+title: Reading Notes 029 - `#`10YearChallenge: harmless trend or boon to facial recognition technology
 categories: [English, Science]
 keywords: English, Skill
 ---
@@ -8,6 +8,7 @@ keywords: English, Skill
 
 
 **#10YearChallenge: harmless trend or boon to facial recognition**
+
 10年挑战：是无害的潮流，还是人脸识别技术的宝藏？
 
 * Is it a harmless harmless trend or boon to facial recognition?
