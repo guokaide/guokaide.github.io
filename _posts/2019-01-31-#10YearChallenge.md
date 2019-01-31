@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Reading Notes 029 - `#`10YearChallenge: harmless trend or boon to facial recognition technology
+title: "Reading Notes 029 - #10YearChallenge: harmless trend or boon to facial recognition technology"
 categories: [English, Science]
 keywords: English, Skill
 ---
 
 
+`Source` 纽约时报
 
 **#10YearChallenge: harmless trend or boon to facial recognition**
 
