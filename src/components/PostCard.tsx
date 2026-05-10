@@ -14,7 +14,7 @@ export default function PostCard({ post }: { post: PostMeta }) {
     <article className="post-card">
       <div className="post-meta-row">
         <time dateTime={post.date}>{formatDate(post.date)}</time>
-        <span>·</span>
+        <span className="post-meta-sep">/</span>
         <span>{post.readingTime}</span>
       </div>
       <Link href={`/posts/${post.slug}`} className="post-title-link">

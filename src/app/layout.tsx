@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Fraunces, DM_Sans } from 'next/font/google'
+import { Fraunces, Newsreader, JetBrains_Mono } from 'next/font/google'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import './globals.css'
@@ -11,10 +11,19 @@ const fraunces = Fraunces({
   style: ['normal', 'italic'],
 })
 
-const dmSans = DM_Sans({
+const newsreader = Newsreader({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  variable: '--font-newsreader',
   display: 'swap',
+  style: ['normal', 'italic'],
+  weight: ['400', '500', '600'],
+})
+
+const mono = JetBrains_Mono({
+  subsets: ['latin'],
+  variable: '--font-mono',
+  display: 'swap',
+  weight: ['400', '500'],
 })
 
 export const metadata: Metadata = {
@@ -27,7 +36,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${dmSans.variable}`}>
+    <html lang="zh-Hans" className={`${fraunces.variable} ${newsreader.variable} ${mono.variable}`}>
       <body>
         <Header />
         <main className="page-content">

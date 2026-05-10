@@ -27,7 +27,7 @@ export default async function PostPage({ params }: { params: { slug: string } })
       <header className="article-header">
         <div className="article-meta">
           <time dateTime={post.date}>{formatDate(post.date)}</time>
-          <span>·</span>
+          <span className="article-meta-sep">/</span>
           <span>{post.readingTime}</span>
         </div>
         <h1 className="article-title">{post.title}</h1>

@@ -42,7 +42,16 @@ Dynamic routes (`[slug]`, `[tag]`) implement `generateStaticParams()` for full s
 
 ### Styling
 
-Tailwind CSS with the typography plugin. Design tokens are CSS variables on `:root` — a warm cream/brown palette with burnt orange accent (`--accent: #B45309`). All styling targets light mode only (dark mode config exists but is unused). Global styles and prose overrides are in `src/app/globals.css`.
+Tailwind CSS with the typography plugin. Design tokens are CSS variables on `:root` — a warm cream/manuscript palette with deep manuscript-red accent (`--accent: #8B2D1F`, secondary `--accent-soft: #B45309`). All styling targets light mode only.
+
+Three Google fonts wired through CSS variables (configured in `src/app/layout.tsx`):
+- `--font-display` (Fraunces, italic-friendly serif) — logo, page headings, post titles, drop caps
+- `--font-serif` (Newsreader) — body and prose
+- `--font-tech` (JetBrains Mono) — meta lines, nav, footer (uppercase + tracked)
+
+Signature editorial details: drop cap on the first paragraph of articles (`.prose > p:first-of-type::first-letter`, accent-red italic Fraunces), centered `✦` flourish dividers, film-grain overlay, short accent stripe top-left of the header. Global styles in `src/app/globals.css`.
+
+CJK fallback: the html root is `lang="zh-Hans"` and `--font-serif` / `--font-display` chain into Source Han Serif / Songti / Noto CJK before Latin fallbacks. Negative letter-spacing on display headings is kept gentle (`~-0.015em`) so it does not crush Chinese glyphs.
 
 ### Deployment constraints
 
