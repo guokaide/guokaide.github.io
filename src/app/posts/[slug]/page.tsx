@@ -31,6 +31,15 @@ export default async function PostPage({ params }: { params: { slug: string } })
           <span>{post.readingTime}</span>
         </div>
         <h1 className="article-title">{post.title}</h1>
+        {post.tags.length > 0 && (
+          <div className="article-tags">
+            {post.tags.map((tag: string) => (
+              <Link key={tag} href={`/tags/${tag}`} className="article-tag">
+                {tag}
+              </Link>
+            ))}
+          </div>
+        )}
       </header>
 
       <div

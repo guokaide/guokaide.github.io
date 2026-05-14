@@ -11,8 +11,11 @@ import { Post, PostMeta } from './types'
 const postsDir = path.join(process.cwd(), 'content/posts')
 
 function calcReadingTime(content: string): string {
-  const words = content.trim().split(/\s+/).length
-  const minutes = Math.max(1, Math.ceil(words / 200))
+  const cjk = content.match(/[一-鿿㐀-䶿]/g)
+  const cjkCount = cjk ? cjk.length : 0
+  const latin = content.replace(/[一-鿿㐀-䶿]/g, ' ').trim()
+  const latinWords = latin ? latin.split(/\s+/).length : 0
+  const minutes = Math.max(1, Math.ceil(latinWords / 200 + cjkCount / 300))
   return `${minutes} min read`
 }
 

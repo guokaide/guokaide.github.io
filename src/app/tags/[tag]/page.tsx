@@ -19,7 +19,7 @@ export default function TagPage({ params }: { params: { tag: string } }) {
       <div style={{ marginBottom: '0.75rem' }}>
         <Link href="/tags" className="back-link">← All topics</Link>
       </div>
-      <h1 className="page-heading">#{params.tag}</h1>
+      <h1 className="page-heading"><span className="topic-hash">#</span>{params.tag}</h1>
       <p className="page-subheading">
         {posts.length} {posts.length === 1 ? 'post' : 'posts'}
       </p>

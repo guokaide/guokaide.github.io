@@ -25,7 +25,7 @@ export default function TagsPage() {
         return (
           <section key={tag} className="topic-section">
             <div className="topic-header">
-              <Link href={`/tags/${tag}`} className="topic-name">#{tag}</Link>
+              <Link href={`/tags/${tag}`} className="topic-name"><span className="topic-hash">#</span>{tag}</Link>
               <span className="topic-count">
                 {tagPosts.length} {tagPosts.length === 1 ? 'post' : 'posts'}
               </span>

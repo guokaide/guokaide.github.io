@@ -1,19 +1,24 @@
+'use client'
+
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
+  const pathname = usePathname()
+
+  const linkClass = (href: string) => {
+    const active = pathname === href || pathname.startsWith(href + '/')
+    return `nav-link${active ? ' nav-link-active' : ''}`
+  }
+
   return (
     <header className="site-header">
       <div className="header-inner">
-        <Link href="/" className="logo">
-          <span>Kai</span>
-          <svg className="logo-mark" width="13" height="13" viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 0 C12.5 9 13 11 24 12 C13 13 12.5 15 12 24 C11.5 15 11 13 0 12 C11 11 11.5 9 12 0 Z" fill="currentColor"/>
-          </svg>
-        </Link>
+        <Link href="/" className="logo">Kai</Link>
         <nav className="site-nav">
-          <Link href="/archive" className="nav-link">Archive</Link>
+          <Link href="/archive" className={linkClass('/archive')}>Archive</Link>
           <span className="nav-sep">·</span>
-          <Link href="/about" className="nav-link">About</Link>
+          <Link href="/about" className={linkClass('/about')}>About</Link>
         </nav>
       </div>
     </header>
