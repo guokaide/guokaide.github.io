@@ -2,7 +2,7 @@
 title: 与芒格的一次虚拟对话
 date: 2026-05-16
 excerpt: 读到芒格关于"如何致富"的回答，我让 AI 扮演芒格，追问了四个问题。答案比预想的简单，也比预想的难。
-tags: [reading, thinking]
+tags: [reading, thinking, claude]
 ---
 
 今天读到一段芒格的话。有个年轻股东问他怎样才能追随他的足迹，芒格说：
